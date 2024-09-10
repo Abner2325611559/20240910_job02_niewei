@@ -10,11 +10,7 @@
 
     <script>
         function changeImage(){
-            console.log(element);
-            alert("函数调用成功");
-            let a = confirm('函数是否调用成功？');
-            console.log(a);
-            
+            alert("函数调用成功！");
             const element = document.getElementById("myimage"); 
             let a = element.src.endsWith("pic_bulboff.gif");
             console.log(a);
@@ -25,7 +21,8 @@
             {
                 element.src = "images/pic_bulboff.gif"; //关闭灯泡
             }
-       }
+
+        }
     </script>
 </body>
 </html>
